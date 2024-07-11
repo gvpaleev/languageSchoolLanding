@@ -4,24 +4,38 @@ import logo from './logo.svg';
 import styles from './App.module.css';
 
 const App: Component = () => {
-  return (
-    <div class={styles.App}>
-      <header class={styles.header}>
-        <img src={logo} class={styles.logo} alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          class={styles.link}
-          href="https://github.com/solidjs/solid"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn Solid
-        </a>
-      </header>
-    </div>
-  );
+  return (<>
+    <section>
+      <div>
+        <img src="/public/1.jpg" />
+        <h2>#001</h2>
+      </div>
+    </section>
+    <section>
+      <div>
+        <img src="/public/2.jpg" />
+        <h2>#002</h2>
+      </div>
+    </section>
+    <section>
+      <div>
+        <img src="/public/3.jpg" />
+        <h2>#003</h2>
+      </div>
+    </section>
+    <section>
+      <div>
+        <img src="/public/4.jpg" />
+        <h2>#004</h2>
+      </div>
+    </section>
+    <section>
+      <div>
+        <img src="/public/5.jpg" />
+        <h2>#005</h2>
+      </div>
+    </section>
+  </>);
 };
 
 export default App;
