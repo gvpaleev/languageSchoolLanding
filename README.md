@@ -1,34 +1,47 @@
-## Usage
+# Language School Landing Page
 
-Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
+A simple landing page for a language school built with SolidJS and Vite.
 
-This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
+## Tech Stack
+
+- **SolidJS** - Reactive UI framework
+- **TypeScript** - Type-safe development
+- **Vite** - Fast build tool and dev server
+
+## Installation
 
 ```bash
-$ npm install # or pnpm install or yarn install
+npm install
 ```
 
-### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
+## Development
 
-## Available Scripts
+Start the development server:
 
-In the project directory, you can run:
+```bash
+npm run dev
+```
 
-### `npm run dev` or `npm start`
+The app will be available at `http://localhost:8080`
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Build
 
-The page will reload if you make edits.<br>
+Create a production build:
 
-### `npm run build`
+```bash
+npm run build
+```
 
-Builds the app for production to the `dist` folder.<br>
-It correctly bundles Solid in production mode and optimizes the build for the best performance.
+The optimized output will be in the `dist` folder.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+## Preview
+
+Preview the production build locally:
+
+```bash
+npm run serve
+```
 
 ## Deployment
 
-You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
+Deploy the `dist` folder to any static hosting provider (Netlify, Vercel, AWS S3, etc.)
